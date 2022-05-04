@@ -1,0 +1,310 @@
+body {
+  color-scheme: light;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #202020;
+  font-family: sans-serif;
+}
+
+#wrap {
+  overflow: hidden;
+  min-width: 1190px;
+}
+
+#header {
+  position: relative;
+  background-color: #fff;
+  z-index: 2000;
+}
+
+.special_bg {
+  height: 160px;
+  border-bottom: 1px solid #e4e8eb;
+}
+
+.group_flex {
+  width: 1130px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.group_flex .logo_area .logo.default {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  margin-top: -32px;
+}
+
+.group_flex .logo_area .logo.default .logo_naver {
+  display: block;
+}
+
+.group_flex .service_area {
+  position: absolute;
+  top: 12px;
+  right: 27px;
+}
+
+.group_flex .service_area #NM_set_home_btn {
+  float: left;
+  font-size: 11px;
+  color: #404040;
+}
+
+.group_flex .service_area .sa_bar {
+  float: left;
+  width: 1px;
+  height: 10px;
+  margin: 3px 7px;
+  background-color: #e4e8eb;
+}
+
+.group_flex .service_area .link_jrnaver {
+  color-scheme: light;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "맑은 고딕";
+  color: inherit;
+  text-decoration: none;
+  float: left;
+}
+
+.group_flex .service_area .link_jrnaver .ico_jrnaver {
+  color-scheme: light;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "맑은 고딕";
+  color: inherit;
+  font-style: normal;
+  background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_6f9b98.png);
+  background-size: 444px 439px;
+  display: inline-block;
+  width: 60px;
+  height: 10px;
+  background-position: -285px -267px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin: 3px;
+}
+
+.group_flex .service_area .link_jrnaver .blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.group_flex .service_area .link_happybin {
+  color: inherit;
+  text-decoration: none;
+  float: left;
+  margin-left: 6px;
+}
+
+.group_flex .service_area .link_happybin .ico_happybin {
+  background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_6f9b98.png);
+  background-size: 444px 439px;
+  display: inline-block;
+  width: 34px;
+  height: 11px;
+  background-position: -220px -144px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin: 3px 3px 2px;
+}
+
+.group_flex .service_area .link_happybin .blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.group_flex #search.search_area {
+  position: absolute;
+  top: 50%;
+  left: 268px;
+  margin-top: -28px;
+}
+
+.group_flex #search.search_area #sform {
+  margin: 0;
+  padding: 0;
+}
+
+.group_flex #search.search_area #sform fieldset {
+  border: 0;
+}
+
+.group_flex #search.search_area #sform fieldset #where {
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.group_flex #search.search_area #sform fieldset .green_window {
+  position: relative;
+  width: 582px;
+  height: 52px;
+  border: 5px solid #19ce60;
+  border-radius: 2px;
+}
+
+.group_flex
+  #search.search_area
+  #sform
+  fieldset
+  .green_window
+  #query.input_text {
+  border-radius: 0;
+  border: 0;
+  width: 444px;
+  height: 24px;
+  padding: 13px 15px;
+  margin: 1px;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 700;
+  outline: 0;
+}
+
+.group_flex #search.search_area #sform fieldset #search_btn.btn_submit {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 56px;
+  background-color: #19ce60;
+  -webkit-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+.group_flex
+  #search.search_area
+  #sform
+  fieldset
+  #search_btn.btn_submit
+  .ico_search_submit {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-position: -420px -207px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.group_flex #search.search_area #sform fieldset #search_btn.btn_submit .blind {
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.group_flex
+  #search.search_area
+  #sform
+  fieldset
+  #search_btn.btn_submit
+  .ico_search_submit {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-position: -420px -207px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.group_flex #search.search_area #ke_kbd_btn.btn_keyboard {
+  position: absolute;
+  top: 0;
+  right: 84px;
+  bottom: 0;
+  width: 36px;
+  z-index: 400;
+}
+
+.group_flex #search.search_area #ke_kbd_btn .btn_keyboard .blind {
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.group_flex #search.search_area #ke_kbd_btn .btn_keyboard .ico_keyboard {
+  background-image: url(https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png);
+  background-size: 444px 439px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 12px;
+  background-position: -322px -279px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin: -6px 0 0 -10px;
+}
+
+.group_flex #search.search_area #_nx_kbd {
+  color-scheme: light;
+  font-size: 12px;
+  line-height: 16px;
+  color: #202020;
+  font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕",
+    helvetica, "Apple SD Gothic Neo", sans-serif;
+  display: none;
+}
+
+.group_flex #search.search_area .autocomplete {
+  display: none;
+}
+
+.group_flex #search.search_area .autocomplete #nautocomplete.btn_arw.fold {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 64px;
+  bottom: 0;
+  width: 22px;
+}
+
+.group_flex
+  #search.search_area
+  .autocomplete
+  #nautocomplete.btn_arw.fold
+  .blind {
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.group_flex
+  #search.search_area
+  .autocomplete
+  #nautocomplete.btn_arw.fold
+  .ico_arr {
+  top: 50%;
+  left: 50%;
+  margin: -2px 0 0 -5px;
+  background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_6f9b98.png);
+  background-size: 444px 439px;
+  display: inline-block;
+  width: 10px;
+  height: 5px;
+  background-position: -96px -296px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
